@@ -363,3 +363,4 @@ MigrationBackup/
 FodyWeavers.xsd
 
 truffle-config.js
+build
