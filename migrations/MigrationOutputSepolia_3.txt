@@ -1,0 +1,51 @@
+C:\Users\ulvei\source\repos\BeStaked\truffleproject>truffle migrate ./migrations/4_PortableStake_migration.js --network sepolia
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+Starting migrations...
+======================
+> Network name:    'sepolia'
+> Network id:      11155111
+> Block gas limit: 30000000 (0x1c9c380)
+
+
+4_PortableStake_migration.js
+============================
+
+   Deploying 'PortableStake'
+   -------------------------
+   > transaction hash:    0x8ce51e7ea2c2a8ce347d1b372b436c79b8d50d2ee0d075960f6e6b065828743a
+   > Blocks: 0            Seconds: 20
+   > contract address:    0xAdd3923b47557DADE1af4E70065ab0aDf3240813
+   > block number:        2294223
+   > block timestamp:     1668517356
+   > account:             0xAd7d009547272C30e9a84812Ca167B64671acD35
+   > balance:             0.06770754
+   > gas used:            3610097 (0x3715f1)
+   > gas price:           15 gwei
+   > value sent:          0 ETH
+   > total cost:          0.054151455 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:         0.054151455 ETH
+
+
+5_Market_migration.js
+=====================
+
+   > Saving migration to chain.
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.054151455 ETH

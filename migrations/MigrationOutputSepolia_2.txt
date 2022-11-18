@@ -1,0 +1,95 @@
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+Starting migrations...
+======================
+> Network name:    'sepolia'
+> Network id:      11155111
+> Block gas limit: 30000000 (0x1c9c380)
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > transaction hash:    0xb09492963be3cf809d42e1a2a58fe75bd8ddc7079342ec927ef0af16cd118653
+   > Blocks: 1            Seconds: 8
+   > contract address:    0x20F1d8C03E4186c6FCed6fF08B3aFaf69226b079
+   > block number:        2294147
+   > block timestamp:     1668516336
+   > account:             0xAd7d009547272C30e9a84812Ca167B64671acD35
+   > balance:             0.09861931
+   > gas used:            165998 (0x2886e)
+   > gas price:           15 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00248997 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00248997 ETH
+
+
+2_ERC20Mock_migration.js
+========================
+
+   > Saving migration to chain.
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+3_NFTokenMock_migration.js
+==========================
+
+   > Saving migration to chain.
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+4_PortableStake_migration.js
+============================
+
+   Deploying 'StakeableTokenMock'
+   ------------------------------
+   > transaction hash:    0x6d7b97166d761a3fdb48cd66c8fcf3e40bbcc64a69d5010c98dad0e32556a684
+   > Blocks: 2            Seconds: 20
+   > contract address:    0xCE325889177a36aD87C7311568e810Ada6493779
+   > block number:        2294153
+   > block timestamp:     1668516408
+   > account:             0xAd7d009547272C30e9a84812Ca167B64671acD35
+   > balance:             0.053858995
+   > gas used:            2881151 (0x2bf67f)
+   > gas price:           15 gwei
+   > value sent:          0 ETH
+   > total cost:          0.043217265 ETH
+
+
+   Deploying 'PortableStake'
+   -------------------------
+
+Error:  *** Deployment Failed ***
+
+"PortableStake" ran out of gas (using a value you set in your network config or deployment parameters.)
+   * Block limit:  30000000 (0x1c9c380)
+   * Gas sent:     4000000 (0x3d0900)
+
+    at C:\Users\ulvei\AppData\Roaming\npm\node_modules\truffle\build\webpack:\packages\deployer\src\deployment.js:365:1
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Migration._deploy (C:\Users\ulvei\AppData\Roaming\npm\node_modules\truffle\build\webpack:\packages\migrate\Migration.js:74:1)
+    at Migration._load (C:\Users\ulvei\AppData\Roaming\npm\node_modules\truffle\build\webpack:\packages\migrate\Migration.js:61:1)
+    at Migration.run (C:\Users\ulvei\AppData\Roaming\npm\node_modules\truffle\build\webpack:\packages\migrate\Migration.js:212:1)
+    at Object.runMigrations (C:\Users\ulvei\AppData\Roaming\npm\node_modules\truffle\build\webpack:\packages\migrate\index.js:150:1)
+    at Object.runFrom (C:\Users\ulvei\AppData\Roaming\npm\node_modules\truffle\build\webpack:\packages\migrate\index.js:110:1)
+    at Object.runAll (C:\Users\ulvei\AppData\Roaming\npm\node_modules\truffle\build\webpack:\packages\migrate\index.js:114:1)
+    at Object.run (C:\Users\ulvei\AppData\Roaming\npm\node_modules\truffle\build\webpack:\packages\migrate\index.js:79:1)
+    at runMigrations (C:\Users\ulvei\AppData\Roaming\npm\node_modules\truffle\build\webpack:\packages\core\lib\commands\migrate.js:263:1)
+    at Object.run (C:\Users\ulvei\AppData\Roaming\npm\node_modules\truffle\build\webpack:\packages\core\lib\commands\migrate.js:228:1)
+    at Command.run (C:\Users\ulvei\AppData\Roaming\npm\node_modules\truffle\build\webpack:\packages\core\lib\command.js:140:1)
+Truffle v5.3.4 (core: 5.3.4)
+Node v14.16.1

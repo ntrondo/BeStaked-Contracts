@@ -1,0 +1,42 @@
+# Build and Test
+
+
+cd "source/BeStaked/truffleproject"
+See https://www.trufflesuite.com/docs/truffle/reference/truffle-commands
+Development
+
+"truffle develop" starts a local chain with adresses eth and contracts deployed according to development network settings and migrations. Inside this scope there is no need for the 'truffle' command, it is implicit. Press Break to exit the scope.
+truffle develop
+compile
+migrate
+test
+test ./test/1_ERC20Mock_Tests.js
+test ./test/2_NFTokenMock_Tests.js
+test ./test/3_StakeableToken_Tests.js
+test ./test/4_PortableStake_Tests.js --show-events
+test ./test/5_PortableStake_Performance_Tests.js
+test ./test/6_StakeIndexBug_Tests.js
+test ./test/7_StakeMarket_Tests.js
+
+
+Ganache
+
+truffle migrate --network ui
+truffle migrate ./migrations/4_PortableStake_migration.js --network ui
+truffle test --network ui
+truffle test ./test/3_StakeableToken_Tests.js --network ui
+truffle test ./test/4_PortableStake_Tests.js --network ui
+truffle test ./test/6_StakeIndexBug_Tests.js --network ui
+
+Sepolia
+Faucet: [Sepolia PoW Faucet](https://sepolia-faucet.pk910.de/)
+truffle migrate --network sepolia
+truffle migrate ./migrations/4_PortableStake_migration.js --network sepolia
+
+Ropsten
+truffle migrate --network ropsten
+truffle migrate ./migrations/4_PortableStake_migration.js --network ropsten
+
+
+Mainnet
+truffle migrate --network ethereum

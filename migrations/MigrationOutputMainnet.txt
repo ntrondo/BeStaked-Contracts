@@ -1,0 +1,146 @@
+C:\Users\ulvei\source\bestaked\Bestaked Blockchain>truffle migrate --network ethereum
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+Migrations dry-run (simulation)
+===============================
+> Network name:    'ethereum-fork'
+> Network id:      1
+> Block gas limit: 15000000 (0xe4e1c0)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > block number:        12900766
+   > block timestamp:     1627288071
+   > account:             0xD9AA07b3E5dEb66b6730F206e0dD64e996080153
+   > balance:             0.4915178
+   > gas used:            147688 (0x240e8)
+   > gas price:           25 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0036922 ETH
+
+   -------------------------------------
+   > Total cost:           0.0036922 ETH
+
+
+2_ERC20Mock_migration.js
+========================
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+3_NFTokenMock_migration.js
+==========================
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+4_PortableStake_migration.js
+============================
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.0036922 ETH
+
+
+
+
+
+Starting migrations...
+======================
+> Network name:    'ethereum'
+> Network id:      1
+> Block gas limit: 14985339 (0xe4a87b)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x1bae872743da0763c6ed36d548b6430b81ed75fd8d8302c01768e83cf4e30384
+   > Blocks: 2            Seconds: 32
+   > contract address:    0xcb7587c5BCBf9e95ce41e8DEc8c3136b6406b97d
+   > block number:        12900770
+   > block timestamp:     1627288116
+   > account:             0xD9AA07b3E5dEb66b6730F206e0dD64e996080153
+   > balance:             0.4911103
+   > gas used:            163988 (0x28094)
+   > gas price:           25 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0040997 ETH
+
+   Pausing for 1 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 12900771)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:           0.0040997 ETH
+
+
+2_ERC20Mock_migration.js
+========================
+
+   > Saving migration to chain.
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+3_NFTokenMock_migration.js
+==========================
+
+   > Saving migration to chain.
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+4_PortableStake_migration.js
+============================
+
+   Deploying 'PortableStake'
+   -------------------------
+   > transaction hash:    0xe14b0ccf31f3e488171a17495d254fe49a978e167d7723b0acbe9f5ce26d095c
+   > Blocks: 5            Seconds: 80
+   > contract address:    0x22E1A96E3103AC7a900DF634d0E2696D05100856
+   > block number:        12900781
+   > block timestamp:     1627288266
+   > account:             0xD9AA07b3E5dEb66b6730F206e0dD64e996080153
+   > balance:             0.3991121
+   > gas used:            3577058 (0x3694e2)
+   > gas price:           25 gwei
+   > value sent:          0 ETH
+   > total cost:          0.08942645 ETH
+
+   Pausing for 1 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 12900782)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.08942645 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.09352615 ETH
+
+
+
+
+C:\Users\ulvei\source\bestaked\Bestaked Blockchain>

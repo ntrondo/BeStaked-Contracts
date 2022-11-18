@@ -1,0 +1,73 @@
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+Starting migrations...
+======================
+> Network name:    'sepolia'
+> Network id:      11155111
+> Block gas limit: 30000000 (0x1c9c380)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0xb8832fadbed359bdf2282f6a0d467fbd8a33581a56e6c0c617a5802ddd2d55fc
+   > Blocks: 1            Seconds: 12
+   > contract address:    0xD2f6A99217E21f1bc8B49940fB08F62078cA6d68
+   > block number:        2294046
+   > block timestamp:     1668514956
+   > account:             0xAd7d009547272C30e9a84812Ca167B64671acD35
+   > balance:             0.10351003
+   > gas used:            165998 (0x2886e)
+   > gas price:           15 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00248997 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00248997 ETH
+
+
+2_ERC20Mock_migration.js
+========================
+
+   > Saving migration to chain.
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+3_NFTokenMock_migration.js
+==========================
+
+   > Saving migration to chain.
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+4_PortableStake_migration.js
+============================
+
+   > Saving migration to chain.
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+5_Market_migration.js
+=====================
+
+   > Saving migration to chain.
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.00248997 ETH

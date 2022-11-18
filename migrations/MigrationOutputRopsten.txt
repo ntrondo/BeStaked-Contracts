@@ -1,0 +1,108 @@
+C:\Users\ulvei\source\bestaked\Bestaked Blockchain>truffle migrate --network ropsten
+
+Compiling your contracts...
+===========================
+> Compiling .\contracts\ERC20\ERC20.sol
+> Compiling .\contracts\ERC20\IERC20.sol
+> Compiling .\contracts\ethereum-erc721\tokens\erc721-enumerable.sol
+> Compiling .\contracts\ethereum-erc721\tokens\erc721-token-receiver.sol
+> Compiling .\contracts\ethereum-erc721\tokens\erc721.sol
+> Compiling .\contracts\ethereum-erc721\tokens\nf-token.sol
+> Compiling .\contracts\ethereum-erc721\utils\Context1.sol
+> Compiling .\contracts\ethereum-erc721\utils\address-utils.sol
+> Compiling .\contracts\ethereum-erc721\utils\erc165.sol
+> Compiling .\contracts\ethereum-erc721\utils\supports-interface.sol
+> Compiling .\contracts\lib\SafeMath.sol
+> Artifacts written to C:\Users\ulvei\source\bestaked\Bestaked Blockchain\build\contracts
+> Compiled successfully using:
+   - solc: 0.8.0+commit.c7dfd78e.Emscripten.clang
+
+
+
+Starting migrations...
+======================
+> Network name:    'ropsten'
+> Network id:      3
+> Block gas limit: 8000000 (0x7a1200)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x3dc903a159a3d54de14d90d34fceb172c70b12782e9fbec6ba24c371066ae9c2
+   > Blocks: 1            Seconds: 28
+   > contract address:    0x76BFF74C65846955b0b761498594c88247D1CfA3
+   > block number:        10672732
+   > block timestamp:     1626768503
+   > account:             0xAd7d009547272C30e9a84812Ca167B64671acD35
+   > balance:             5.056325493591272372
+   > gas used:            163988 (0x28094)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00327976 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 10672733)
+   > confirmation number: 2 (block: 10672734)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00327976 ETH
+
+
+2_ERC20Mock_migration.js
+========================
+
+   > Saving migration to chain.
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+3_NFTokenMock_migration.js
+==========================
+
+   > Saving migration to chain.
+   -------------------------------------
+   > Total cost:                   0 ETH
+
+
+4_PortableStake_migration.js
+============================
+
+   Deploying 'PortableStake'
+   -------------------------
+   > transaction hash:    0xa52e54d2da4ea908954e16cfe42adf8a4ead6a625d73a8b132b27370489bfbed
+   > Blocks: 0            Seconds: 52
+   > contract address:    0x53F840d990d7c88b90A5496b7470Ee0b01083Ed8
+   > block number:        10672739
+   > block timestamp:     1626768697
+   > account:             0xAd7d009547272C30e9a84812Ca167B64671acD35
+   > balance:             4.982726293591272372
+   > gas used:            3577090 (0x369502)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0715418 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 10672740)
+   > confirmation number: 2 (block: 10672741)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:           0.0715418 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.07482156 ETH
+
+
+
+C:\Users\ulvei\source\bestaked\Bestaked Blockchain>

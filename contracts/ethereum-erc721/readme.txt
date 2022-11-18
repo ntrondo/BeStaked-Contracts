@@ -1,0 +1,1 @@
+The contents of this folder was copien from https://github.com/0xcert/ethereum-erc721/tree/master/src/contracts im may 2021
